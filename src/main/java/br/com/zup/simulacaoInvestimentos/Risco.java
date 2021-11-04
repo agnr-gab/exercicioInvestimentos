@@ -1,17 +1,17 @@
 package br.com.zup.simulacaoInvestimentos;
 
 public enum Risco {
-    BAIXO,
-    MEDIO,
-    ALTO;
+    BAIXO(0.025),
+    MEDIO(0.015),
+    ALTO(0.025);
 
-    private String descricao;
+    private double taxa;
 
-    Risco(String descricao) {
-        this.descricao = descricao;
+    Risco(double taxa) {
+        this.taxa = taxa;
     }
 
-    public String getDescricao() {
-        return descricao;
+    public double getTaxa() {
+        return taxa;
     }
 }
