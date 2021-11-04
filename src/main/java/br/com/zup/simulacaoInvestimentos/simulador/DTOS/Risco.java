@@ -1,4 +1,4 @@
-package br.com.zup.simulacaoInvestimentos;
+package br.com.zup.simulacaoInvestimentos.simulador.DTOS;
 
 public enum Risco {
     BAIXO(0.025),

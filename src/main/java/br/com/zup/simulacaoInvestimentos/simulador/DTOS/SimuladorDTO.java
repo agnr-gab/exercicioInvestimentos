@@ -1,4 +1,4 @@
-package br.com.zup.simulacaoInvestimentos;
+package br.com.zup.simulacaoInvestimentos.simulador.DTOS;
 
 public class SimuladorDTO {
     private double valorInvestimento;

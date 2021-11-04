@@ -1,9 +1,9 @@
-package br.com.zup.simulacaoInvestimentos;
+package br.com.zup.simulacaoInvestimentos.simulador.DTOS;
 
 import org.hibernate.validator.constraints.br.CPF;
-import org.springframework.stereotype.Service;
 
 import javax.validation.constraints.Email;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
@@ -16,6 +16,7 @@ public class InvestimentoDTO {
     @CPF(message = "CPF inválido")
     private String cpf;
     private String valorInvestido;
+    @Min(2)
     private String periodoDeAplicacaoMeses;
     private Risco risco;
 
