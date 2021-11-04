@@ -1,8 +1,19 @@
 package br.com.zup.simulacaoInvestimentos;
 
+import org.hibernate.validator.constraints.br.CPF;
+import org.springframework.stereotype.Service;
+
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
+
 public class InvestimentoDTO {
+    @Email (message = "Email informado é inválido")
     private String email;
+    @Size(min = 5, max = 15, message = "O nome inserido deve ter no mínimo 5 caracteres e no máximo 15")
+    @NotBlank
     private String nome;
+    @CPF(message = "CPF inválido")
     private String cpf;
     private String valorInvestido;
     private String periodoDeAplicacaoMeses;
