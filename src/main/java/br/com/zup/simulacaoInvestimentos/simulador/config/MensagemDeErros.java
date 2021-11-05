@@ -9,6 +9,10 @@ public class MensagemDeErros {
         this.campo = campo;
     }
 
+    public MensagemDeErros(String mensagemDeErro) {
+        this.mensagemDeErro = mensagemDeErro;
+    }
+
     public String getMensagemDeErro() {
         return mensagemDeErro;
     }

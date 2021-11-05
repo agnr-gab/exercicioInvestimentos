@@ -1,4 +1,4 @@
-package br.com.zup.simulacaoInvestimentos.simulador.DTOS;
+package br.com.zup.simulacaoInvestimentos.simulador.dtos;
 
 import org.hibernate.validator.constraints.br.CPF;
 

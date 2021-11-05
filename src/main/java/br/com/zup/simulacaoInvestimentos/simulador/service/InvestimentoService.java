@@ -1,4 +1,4 @@
-package br.com.zup.simulacaoInvestimentos.simulador;
+package br.com.zup.simulacaoInvestimentos.simulador.service;
 
 import br.com.zup.simulacaoInvestimentos.simulador.dtos.InvestimentoDTO;
 import br.com.zup.simulacaoInvestimentos.simulador.dtos.SimuladorDTO;
