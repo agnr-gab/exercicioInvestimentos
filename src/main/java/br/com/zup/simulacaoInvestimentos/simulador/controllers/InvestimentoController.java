@@ -1,7 +1,8 @@
-package br.com.zup.simulacaoInvestimentos.simulador;
+package br.com.zup.simulacaoInvestimentos.simulador.controllers;
 
 import br.com.zup.simulacaoInvestimentos.simulador.dtos.InvestimentoDTO;
 import br.com.zup.simulacaoInvestimentos.simulador.dtos.SimuladorDTO;
+import br.com.zup.simulacaoInvestimentos.simulador.service.InvestimentoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
